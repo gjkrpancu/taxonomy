@@ -1,0 +1,19 @@
+created_by: Greg Krpan
+domain: automobile
+seed_examples:
+- answer: | from 1981 through 1983
+  question: When was the Delorean DMC-12 built?
+- answer: | The Delorean was built by DeLorean Motor Company and assembled in Northern Ireland
+  question: Who built the DeLorean DMC-12?
+- answer: | DeLorean used a fiberglass underbody and stainless steel body for their cars
+  question: What materials were used to build the DeLorean DMC-12
+- answer: |The DeLorean DMC-12 used a Peugeot V6 engine rated at 130 bhp and 153 lb-ft of torque
+  question: What engine was used in the DeLorean DMC-12?
+- answer: |The DeLorean DMC-12 gained fame thanks to the 1985 film "Back to the Future", where a Delorean was used as a time machine.
+  question: Why is the DeLorean DMC-12 so famous?
+task_description: ' '
+document: 
+ repo: https://github.com/juliadenham/Summit_knowledge
+ commit: eb071f533d33aaee7b0af2d9fb9e4f3abc9fefec
+ patterns:
+   - DMC_DeLorean.md
